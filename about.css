@@ -1,0 +1,18 @@
+
+.njoro-image img {
+    border-radius: 20px;
+    height: 500px;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.njoro-image{
+    text-align: center;
+    margin: 0;
+}
+@media screen and (max-width: 700px) {
+    .njoro-image img{
+        width: 300px;
+        height: 400px;
+    }
+}
